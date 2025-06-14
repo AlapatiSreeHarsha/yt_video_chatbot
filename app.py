@@ -26,7 +26,7 @@ if 'chat_history' not in st.session_state:
     st.session_state.chat_history = []
 
 # Hardcoded API key
-API_KEY = "AIzaSyB2CSaU-1T6i6EcJylA7u3Dkfd_flrsRKc"
+API_KEY = "YOUR_API_KEY"
 
 def extract_video_id(youtube_url):
     """Extract video ID from YouTube URL"""
